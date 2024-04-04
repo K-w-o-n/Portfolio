@@ -60,7 +60,7 @@ export default function Navbar() {
         >
           <ul className="flex flex-col justify-center h-full text-lg py-2 gap-10">
             {menuLinks.map((menu, i) => (
-              <li key={i} className="px-6 hover:text-cyan-600 uppercase">
+              <li key={i} className="px-6 hover:text-cyan-600 uppercase" onClick={() => setOpen(false)}>
                 <a href={menu.link}>{menu.name}</a>
               </li>
             ))}
