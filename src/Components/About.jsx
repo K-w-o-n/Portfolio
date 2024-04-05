@@ -20,17 +20,9 @@ export default function About() {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                As a Fullstack Developer, I bring a unique blend
-                of creativity, technical expertise, and problem-solving skills
-                to the table. With a passion for building innovative and
-                user-centric applications, I thrive on tackling complex
-                challenges and turning ideas into reality. My journey in the
-                world of software development began with a curiosity-driven
-                exploration of various programming languages and technologies.
-                Over the years, I've honed my skills in both frontend and
-                backend development, mastering languages such as JavaScript,
-                PHP and Java, along with frameworks like React, Next JS, Laravel and
-                MySQL.
+                Hello, I'm <span className='text-orange-400 text- font-bold'>Yell Khaing</span>. <span className='font-semibold'>Kwon</span> is my favourite nickname.
+                At 2023 , I make decision to change my carrer. My ambition is to become Software-Engineer.So, I started Web-Development journey.Before this journey, I studied Yankin Education College from 2012 to 2014.
+                And I studied English major at Pyay University. 
               </p>
             </div>
             <div className="flex mt-10 items-center gap-7">
