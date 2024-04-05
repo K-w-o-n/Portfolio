@@ -25,7 +25,7 @@ const socialMedia = [
       <div className="flex-1">
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 font-bold text-white sm:text-3xl">
-            <span className="text-cyan-600 md:text-6xl text-5xl">Hello!</span>
+            <span className="text-cyan-600 md:text-6xl text-5xl">Hola!</span>
             <br />
             My name is Kwon{" "}
             <span className="text-orange-600  sm:text-3xl md:text-5xl">
@@ -33,7 +33,7 @@ const socialMedia = [
             </span>
           </h1>
           <h4 className="md:text-5xl text-4xl md:leading-normal leading font-bold text-gray-600 mt-4">
-            Fullstack Developer
+            Full Stack Developer
           </h4>
           <button className="mt-8 btn-primary">Contact Me</button>
         </div>

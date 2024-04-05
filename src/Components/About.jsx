@@ -1,12 +1,13 @@
 import React from 'react'
 import aboutImg from "../assets/images/pf1.jpg"
 
+
 export default function About() {
 
       const info = [
-        { text: "Years experience", count: "1" },
+        { text: "Year experience", count: "1" },
         { text: "Completed Projects", count: "10" },
-        { text: "Companies Work", count: "06" },
+        { text: "Group Projects", count: "03" },
       ];
 
   return (
@@ -27,8 +28,8 @@ export default function About() {
                 . <span className="font-semibold">Kwon</span> is my favourite
                 nickname. At 2023 , I made decision to change my carrer. So, I
                 started Web-Development journey.Before this journey, I studied
-                Yankin Education College from 2012 to 2014. And I studied
-                English major at Pyay University.Now, I've been learning to code
+                Yankin Education College from 2013 to 2015. And I studied
+                English major at Pyay University from 2016 to 2020. Now, I've been learning to code
                 for 1 year. I started with HTML, CSS, Javascript from{" "}
                 <span className="font-bold text-indigo-600">Youtube</span>. By
                 using these technologies, I made simple projects.And I studied
@@ -36,7 +37,7 @@ export default function About() {
                 Sir Ei Mg at
                 <a
                   href="http://fairway.com.mm/"
-                  className="no-underline text-orange-600 font-bold"
+                  className="no-underline text-orange-600 font-bold cursor-pointer"
                 >
                   {" "}
                   Fairway Technology{" "}
@@ -45,7 +46,7 @@ export default function About() {
                 With Laravel Course at{" "}
                 <a
                   href="https://www.aprogrammer.blog/"
-                  className="no-underline text-orange-600 font-bold"
+                  className="no-underline text-orange-600 font-bold cursor-pointer"
                 >
                   A Programmer
                 </a>
@@ -66,9 +67,9 @@ export default function About() {
             <br />
             <br />
             <br />
-            <a href="../assets/images/Yell khaing.pdf" download>
+            
               <button className="btn-primary">Download CV</button>
-            </a>
+            
           </div>
         </div>
         <div className="flex-1 md:mt-0 mt-6 flex justify-center items-center">
