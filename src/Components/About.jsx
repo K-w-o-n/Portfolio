@@ -20,9 +20,36 @@ export default function About() {
           <div className="p-2">
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto">
-                Hello, I'm <span className='text-orange-400 text- font-bold'>Yell Khaing</span>. <span className='font-semibold'>Kwon</span> is my favourite nickname.
-                At 2023 , I make decision to change my carrer. My ambition is to become Software-Engineer.So, I started Web-Development journey.Before this journey, I studied Yankin Education College from 2012 to 2014.
-                And I studied English major at Pyay University. 
+                Hello, I'm{" "}
+                <span className="text-orange-400 text- font-bold">
+                  Yell Khaing
+                </span>
+                . <span className="font-semibold">Kwon</span> is my favourite
+                nickname. At 2023 , I made decision to change my carrer. So, I
+                started Web-Development journey.Before this journey, I studied
+                Yankin Education College from 2012 to 2014. And I studied
+                English major at Pyay University.Now, I've been learning to code
+                for 1 year. I started with HTML, CSS, Javascript from{" "}
+                <span className="font-bold text-indigo-600">Youtube</span>. By
+                using these technologies, I made simple projects.And I studied
+                Programming Basic Course & Professional Web Developer Course by
+                Sir Ei Mg at
+                <a
+                  href="http://fairway.com.mm/"
+                  className="no-underline text-orange-600 font-bold"
+                >
+                  {" "}
+                  Fairway Technology{" "}
+                </a>
+                .And I studied Extensive PHP Practice Course , Web Development
+                With Laravel Course at{" "}
+                <a
+                  href="https://www.aprogrammer.blog/"
+                  className="no-underline text-orange-600 font-bold"
+                >
+                  A Programmer
+                </a>
+                . Now I'm studying React JS, Next JS & Typescript.
               </p>
             </div>
             <div className="flex mt-10 items-center gap-7">
@@ -39,7 +66,7 @@ export default function About() {
             <br />
             <br />
             <br />
-            <a href="../assets/Yell Khaing (1).pdf" download>
+            <a href="../assets/images/Yell khaing.pdf" download>
               <button className="btn-primary">Download CV</button>
             </a>
           </div>
