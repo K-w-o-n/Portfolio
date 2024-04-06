@@ -34,7 +34,7 @@ export default function Project() {
     <section id="project" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl fone-semibold">
-          My <span className="text-cyan-600">Projects</span>
+          MY <span className="text-cyan-600 uppercase">Projects</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">My Projects Showcase</p>
       </div>

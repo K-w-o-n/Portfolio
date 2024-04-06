@@ -4,7 +4,7 @@ export default function Skill() {
   return (
     <section id="skill" className="py-6 mt-10">
       <h3 className="text-4xl fone-semibold text-center">
-        My <span className="text-cyan-600">Skills</span>
+        MY <span className="text-cyan-600">SKILLS</span>
       </h3>
       <div className="flex gap-5 justify-center sm:flex-wrap">
         <div className=" m-10 sm:w-full md:w-2/5">

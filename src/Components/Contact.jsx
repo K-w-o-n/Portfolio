@@ -5,7 +5,7 @@ export default function Contact() {
     <section id="contact" className="py-10 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
-          Contact <span className="text-cyan-600">Me</span>
+          CONTACT <span className="text-cyan-600">ME</span>
         </h3>
         <p className="text-lg text-gray-400 mt-3">Get in touch</p>
       </div>

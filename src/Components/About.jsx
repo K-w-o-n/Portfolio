@@ -9,7 +9,7 @@ export default function About() {
     <section id="about" className="py-8 text-white">
       <div className="text-center mt-8 flex-1">
         <h3 className="text-4xl font-semiblod mb-8">
-          About <span className="text-cyan-600">Me</span>
+          ABOUT <span className="text-cyan-600">ME</span>
         </h3>
         <span className='text-white-500 bg-cyan-500 text-2xl py-3 px-5 rounded-lg'>My Introduction</span>
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
