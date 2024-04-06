@@ -1,9 +1,10 @@
 
 import './App.css';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Navbar'
 import Hero from './Components/Hero.jsx'
 import Bot from './Components/Bot.jsx'
 import About from './Components/About.jsx'
+import Skill from './Components/Skill.jsx'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Bot/>
       <About/>
+      <Skill/>
       
     </div>
   );

@@ -4,7 +4,7 @@ export default function Navbar() {
   const menuLinks = [
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
-    { name: "Skills", link: "#skills" },
+    { name: "Skills", link: "#skill" },
     { name: "Projects", link: "#projects" },
     { name: "Contact", link: "#contact" },
   ];
