@@ -6,6 +6,7 @@ import Bot from './Components/Bot.jsx'
 import About from './Components/About.jsx'
 import Skill from './Components/Skill.jsx'
 import Project from './Components/Project.jsx'
+import Contact from './Components/Contact.jsx'
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Skill/>
       <Project/>
+      <Contact/>
 
       
     </div>

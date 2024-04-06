@@ -8,6 +8,7 @@ const socialMedia = [
   { name: "logo-facebook", link: "https://www.facebook.com/kwon.woo.357/" },
   { name: "logo-twitter", link: "https://twitter.com/?lang=en" },
   { name: "logo-linkedin", link: "https://www.linkedin.com/feed/" },
+  { name: "logo-github", link: "https://github.com/K-w-o-n" },
 ];
 
   return (

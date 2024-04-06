@@ -18,13 +18,13 @@ export default function Project() {
       },
       {
         img: project2,
-        name: "react filter",
+        name: "React filter",
         github_link: "https://github.com/K-w-o-n/ecommerce",
         live_link: "https://react-ecommercekwon.netlify.app",
       },
       {
         img: project3,
-        name: "restaurant order",
+        name: "Restaurant order",
         github_link: "https://github.com/K-w-o-n/practicepj",
         live_link: "https://laravel.com/",
       },
