@@ -3,11 +3,11 @@ import React from 'react'
 export default function Skill() {
   return (
     <section id="skill" className="py-6 mt-10">
-      <div className="text-center mt-8">
-        <h3 className="text-center text-3xl font-semibold">Skills</h3>
-      </div>
+      <h3 className="text-4xl fone-semibold text-center">
+        My <span className="text-cyan-600">Skills</span>
+      </h3>
       <div className="flex gap-5 justify-center sm:flex-wrap">
-        <div className="w-2/5 m-10">
+        <div className=" m-10 sm:w-full md:w-2/5">
           <div>
             <h4 className="font-semibold text-2xl text-center">Frontend</h4>
           </div>
@@ -63,7 +63,7 @@ export default function Skill() {
             </div>
           </div>
         </div>
-        <div className="w-2/5 m-10">
+        <div className="m-10 sm:w-full md:w-2/5">
           <div>
             <h4 className="font-semibold text-center text-2xl">Backend</h4>
           </div>

@@ -5,7 +5,7 @@ export default function Navbar() {
     { name: "Home", link: "#home" },
     { name: "About", link: "#about" },
     { name: "Skills", link: "#skill" },
-    { name: "Projects", link: "#projects" },
+    { name: "Projects", link: "#project" },
     { name: "Contact", link: "#contact" },
   ];
   const [sticky, setSticky] = useState(false);
