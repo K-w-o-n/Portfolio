@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from "../../src/assets/cv.pdf"
+import resume from "../../src/assets/kwon.pdf"
 import aboutImg from "../../src/assets/images/pf1.jpg"
 import { motion } from 'framer-motion'
 import { fadeIn } from '../Components/variants'
@@ -62,7 +62,7 @@ export default function About() {
             <br />
             <br />
             <div className='ms-6'>
-              <a href={resume} download className="ms">
+              <a href={resume} download="Resume">
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
