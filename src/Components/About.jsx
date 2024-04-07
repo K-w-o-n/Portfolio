@@ -1,6 +1,8 @@
 import React from 'react'
 import resume from "../../src/assets/cv.pdf"
 import aboutImg from "../../src/assets/images/pf1.jpg"
+import { motion } from 'framer-motion'
+import { fadeIn } from '../Components/variants'
 
 
 
@@ -8,7 +10,13 @@ export default function About() {
 
   return (
     <section id="about" className="py-8 text-white">
-      <div className="text-center mt-8 flex-1">
+      <motion.div
+      variants={fadeIn("down",0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.5}}
+
+       className="text-center mt-8 flex-1">
         <h3 className="text-4xl font-semiblod mb-8">
           ABOUT <span className="text-cyan-600">ME</span>
         </h3>
@@ -69,7 +77,7 @@ export default function About() {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 }

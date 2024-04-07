@@ -1,8 +1,16 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../Components/variants'
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-10 text-white">
+    <motion.section
+    variants={fadeIn("down",0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{ once: false, amount: 0.5}}
+    
+    id="contact" className="py-10 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
           CONTACT <span className="text-cyan-600">ME</span>
@@ -17,6 +25,6 @@ export default function Contact() {
             <button className='btn-primary w-fit'>Send Message</button>
         </form>
       </div>
-    </section>
+    </motion.section>
   );
 }

@@ -1,19 +1,10 @@
 import React from 'react'
 import hero from "../assets/images/pf4.jpg"
 import { motion } from 'framer-motion'
+import { fadeIn } from '../Components/variants'
 
 
-const containerVariants = {
-  hidden: {
-    opacity: 0,
-    x: "-50"
-  },
-  visible: {
-    opacity: 1,
-    x: "0",
-    transition: {type:"spring", delay: 0.5}
-  }
-}
+
 export default function Hero() {
 
 const socialMedia = [
@@ -27,9 +18,10 @@ const socialMedia = [
 
   return (
     <motion.section
-    variants={containerVariants}
-    initial= "hidden"
-    animate= "visible"
+    variants={fadeIn("down",0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{ once: false, amount: 0.7}}
     
       id="home"
       className=" py-10 flex min-h-screen md:flex-row flex-col items-center"

@@ -1,8 +1,16 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import { fadeIn } from '../Components/variants'
+
 
 export default function Skill() {
   return (
-    <section id="skill" className="py-6 mt-10">
+    <motion.section
+    variants={fadeIn("down",0.2)}
+    initial="hidden"
+    whileInView={"show"}
+    viewport={{ once: false, amount: 0.5}}
+    id="skill" className="py-6 mt-10">
       <h3 className="text-4xl fone-semibold text-center">
         MY <span className="text-cyan-600">SKILLS</span>
       </h3>
@@ -95,6 +103,6 @@ export default function Skill() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }

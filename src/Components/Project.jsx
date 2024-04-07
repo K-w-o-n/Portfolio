@@ -5,7 +5,9 @@ import project2 from "../assets/images/pj2.png"
 import project3 from "../assets/images/pj3.png"
 import "swiper/css";
 import "swiper/css/pagination";
-import {  Pagination, Autoplay } from "swiper/modules";;
+import {  Pagination, Autoplay } from "swiper/modules";
+import { motion } from 'framer-motion'
+import { fadeIn } from '../Components/variants'
 
 
 export default function Project() {
@@ -31,7 +33,12 @@ export default function Project() {
     ];
 
   return (
-    <section id="project" className="py-10 text-white">
+    <motion.section
+    variants={fadeIn("down",0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.5}}
+    id="project" className="py-10 text-white">
       <div className="text-center">
         <h3 className="text-4xl fone-semibold">
           MY <span className="text-cyan-600 uppercase">Projects</span>
@@ -83,6 +90,6 @@ export default function Project() {
           </Swiper>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
