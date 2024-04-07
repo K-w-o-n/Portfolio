@@ -1,6 +1,19 @@
 import React from 'react'
 import hero from "../assets/images/pf4.jpg"
+import { motion } from 'framer-motion'
 
+
+const containerVariants = {
+  hidden: {
+    opacity: 0,
+    x: "-50"
+  },
+  visible: {
+    opacity: 1,
+    x: "0",
+    transition: {type:"spring", delay: 0.5}
+  }
+}
 export default function Hero() {
 
 const socialMedia = [
@@ -11,8 +24,13 @@ const socialMedia = [
   { name: "logo-github", link: "https://github.com/K-w-o-n" },
 ];
 
+
   return (
-    <section
+    <motion.section
+    variants={containerVariants}
+    initial= "hidden"
+    animate= "visible"
+    
       id="home"
       className=" py-10 flex min-h-screen md:flex-row flex-col items-center"
     >
@@ -52,7 +70,7 @@ const socialMedia = [
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 }
 
