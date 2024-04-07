@@ -1,5 +1,6 @@
 import React from 'react'
-import aboutImg from "../assets/images/pf1.jpg"
+import resume from "../../src/assets/cv.pdf"
+import aboutImg from "../../src/assets/images/pf1.jpg"
 
 
 
@@ -53,7 +54,7 @@ export default function About() {
             <br />
             <br />
             <div className='ms-6'>
-              <a href="../assets/Yell khaing.pdf" download className="ms">
+              <a href={resume} download className="ms">
                 <button className="btn-primary">Download CV</button>
               </a>
             </div>
