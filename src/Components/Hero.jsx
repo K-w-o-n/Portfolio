@@ -30,7 +30,7 @@ const socialMedia = [
         <img
           src={hero}
           alt=""
-          className="md:w-8/12 h-8/12 object-cover rounded-full sm:w-6/12 h-6/12"
+          className="md:w-6/12 h-8/12 object-cover rounded-full sm:w-6/12 h-6/12"
         />
       </div>
       <div className="flex-1">
