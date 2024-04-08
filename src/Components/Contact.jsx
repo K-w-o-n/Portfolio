@@ -60,16 +60,6 @@ export default function Contact() {
           ></textarea>
           <input type="submit" value="send" className="btn-primary w-fit" />
         </form>
-        <div className="ms-10">
-          <div className="flex gap-3 p-3 m-3 text-2xl item-center justify-center">
-            <ion-icon name="call"></ion-icon>
-            <a href="tel:09891150961">09891150961</a>
-          </div>
-          <div className="flex gap-3 p-3 m-3 text-2xl item-center justify-center">
-            <ion-icon name="mail"></ion-icon>
-            <a href="mailto:kwonfsdev95gmail.com">kwonfsdev95@gmail.com</a>
-          </div>
-        </div>
       </div>
     </motion.section>
   );

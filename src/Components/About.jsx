@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from "../../src/assets/kwon.pdf"
+import resume from "../../src/assets/images/kwonResume.pdf"
 import aboutImg from "../../src/assets/images/pf4.jpg"
 import { motion } from 'framer-motion'
 import { fadeIn } from '../Components/variants'
@@ -20,13 +20,13 @@ export default function About() {
         <h3 className="text-4xl font-semiblod mb-8">
           ABOUT <span className="text-cyan-600">ME</span>
         </h3>
-        <span className='text-white-500 bg-cyan-500 text-2xl py-3 px-5 rounded-lg'>My Introduction</span>
+        
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
-              <p className="text-justify leading-7 w-11/12 mx-auto">
+              <p className="text-justify leading-7 w-11/12 mx-auto text-lg">
                 Hello, I'm{" "}
-                <span className="text-orange-400 text- font-bold">
+                <span className="text-orange-400  font-bold">
                   Yell Khaing
                 </span>
                 . <span className="font-semibold">Kwon</span> is my favourite
