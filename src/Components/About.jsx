@@ -1,6 +1,6 @@
 import React from 'react'
 import resume from "../../src/assets/kwon.pdf"
-import aboutImg from "../../src/assets/images/pf1.jpg"
+import aboutImg from "../../src/assets/images/pf4.jpg"
 import { motion } from 'framer-motion'
 import { fadeIn } from '../Components/variants'
 

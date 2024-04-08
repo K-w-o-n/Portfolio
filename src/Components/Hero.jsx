@@ -1,5 +1,5 @@
 import React from 'react'
-import hero from "../assets/images/pf4.jpg"
+import hero from "../assets/images/pf1.jpg"
 import { motion } from 'framer-motion'
 import { fadeIn } from '../Components/variants'
 
@@ -44,7 +44,7 @@ const socialMedia = [
             </span>
           </h1>
           <h4 className="md:text-5xl text-4xl md:leading-normal leading font-bold text-gray-600 mt-4">
-            Full Stack Developer
+            Web Developer
           </h4>
           <button className="mt-8 btn-primary">Contact Me</button>
         </div>
