@@ -46,7 +46,7 @@ const socialMedia = [
           <h4 className="md:text-5xl text-4xl md:leading-normal leading font-bold text-gray-600 mt-4">
             Web Developer
           </h4>
-          <button className="mt-8 btn-primary">Contact Me</button>
+          <button className="mt-8 btn-primary">Hire Me</button>
         </div>
         <div className="mt-10 text-3xl flex items-center md:justify-start justify-center gap-5">
           {socialMedia.map((icon) => (

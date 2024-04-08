@@ -7,6 +7,7 @@ import About from './Components/About.jsx'
 import Skill from './Components/Skill.jsx'
 import Project from './Components/Project.jsx'
 import Contact from './Components/Contact.jsx'
+import Footer from './Components/Footer.jsx'
 
 
 function App() {
@@ -19,7 +20,7 @@ function App() {
       <Skill/>
       <Project/>
       <Contact/>
-
+      <Footer/>
       
     </div>
   );
