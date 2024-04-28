@@ -25,8 +25,8 @@ export default function Navbar() {
       }`}
     >
       <div className="flex items-center justify-between">
-        <div className="mx-20">
-          <h4 className="text-4xl uppercase font-bold ">
+        <div className="mx-20 sm:mx-4">
+          <h4 className="text-4xl uppercase font-bold sm:float-start">
             k<span className="text-green-600">wo</span>n
           </h4>
         </div>
