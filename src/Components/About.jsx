@@ -24,7 +24,7 @@ export default function About() {
         <div className="flex md:flex-row flex-col-reverse items-center md:gap-6 gap-12 px-10 max-w-6xl mx-auto">
           <div className="p-2">
             <div className="text-gray-300 my-3">
-              <p className="text-justify leading-7 w-11/12 mx-auto text-2xl">
+              <p className="text-justify leading-7 w-11/12 mx-auto text-2xl text-gray-600">
                 Hello, I'm{" "}
                 <span className="text-orange-400  font-bold">
                   Yell Khaing

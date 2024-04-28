@@ -54,7 +54,7 @@ export default function Navbar() {
         </div>
         <div
           className={`md:hidden text-gray-900 h-screen absolute
-         w-2/3 top-0 right-0 bg-white px-7 py-2 font-medium duration-500 ${
+         w-2/3 top-0 right-0 bg-slate-400 px-7 py-2 font-medium duration-500 ${
            open ? "right-0" : "right-[-100%]"
          }`}
         >
