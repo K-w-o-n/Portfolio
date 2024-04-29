@@ -13,7 +13,7 @@ export default function Navbar() {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      const nav = document.querySelector("nav");
+      // const nav = document.querySelector("nav");
       window.scrollY > 0 ? setSticky(true) : setSticky(false);
     });
   }, []);
@@ -24,17 +24,17 @@ export default function Navbar() {
         sticky ? "md:bg-white/60 bg-white text-gray-900" : "text-white"
       }`}
     >
-      <div className="flex items-center justify-between">
-        <div className="mx-20 sm:mx-4">
-          <h4 className="text-4xl uppercase font-bold sm:float-start">
-            k<span className="text-green-600">wo</span>n
+      <div className="flex items-center justify-between md:mx-20 sm:mx-0">
+        <div className="sm:mx-4">
+          <h4 className="text-4xl text-gray-600 uppercase font-bold sm:float-start sm:text-3xl">
+            Kwon
           </h4>
         </div>
         <div
           className={`${
             sticky ? "md:bg-white/0 bg-white" : ""
-          }text-gray-900 md:block hidden px-7 py-2 bg-white font-medium
-            rounded-bl-full`}
+          }text-yellow-500 md:block hidden px-7 py-2 font-medium
+            `}
         >
           <ul className="flex items-center uppercase text-lg gap-1 mx-20 py-2">
             {menuLinks.map((menu, i) => (

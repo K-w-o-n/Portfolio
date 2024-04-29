@@ -41,7 +41,7 @@ export default function Contact() {
         </h3>
         <p className="text-lg text-gray-400 mt-3">Get in touch</p>
       </div>
-      <div className="mt-16 flex md:flex-row flex-col gap-6 max-w-5xl bg-gray-800 p-6 rounded-lg mx-auto">
+      <div className="mt-16 flex md:flex-row flex-col gap-6 max-w-5xl  p-6  mx-auto">
         <form
           ref={form}
           className="flex flex-col flex-1 gap-5"
@@ -58,7 +58,7 @@ export default function Contact() {
             rows={10}
             name="message"
           ></textarea>
-          <input type="submit" value="send" className="btn-primary w-fit" />
+          <input type="submit" value="Send Message" className="btn-primary w-fit" />
         </form>
       </div>
     </motion.section>

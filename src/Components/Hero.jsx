@@ -18,11 +18,10 @@ const socialMedia = [
 
   return (
     <motion.section
-    variants={fadeIn("down",0.2)}
-    initial="hidden"
-    whileInView={"show"}
-    viewport={{ once: false, amount: 0.7}}
-    
+      variants={fadeIn("down", 0.2)}
+      initial="hidden"
+      whileInView={"show"}
+      viewport={{ once: false, amount: 0.7 }}
       id="home"
       className=" py-10 flex min-h-screen md:flex-row flex-col items-center"
     >
@@ -35,11 +34,13 @@ const socialMedia = [
       </div>
       <div className="flex-1">
         <div className="md:text-left text-center">
-          <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 font-bold text-white sm:text-3xl">
-            <span className="text-cyan-600 md:text-6xl text-5xl">Hola!</span>
+          <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 font-bold text-gray-600 sm:text-3xl">
+            <span className="text-gray-600 md:text-6xl text-5xl">
+              Hi🐱‍🏍
+            </span>
             <br />
             My name is Kwon{" "}
-            <span className="text-orange-600  sm:text-3xl md:text-5xl">
+            <span className="text-gray-600  sm:text-3xl md:text-5xl">
               (Yell Khaing)
             </span>
           </h1>
@@ -54,7 +55,6 @@ const socialMedia = [
               key={icon}
               className="text-gray-600 hover:text-white cursor-pointer"
             >
-              
               <a href={icon.link}>
                 <ion-icon name={icon.name}></ion-icon>
               </a>
