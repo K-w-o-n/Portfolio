@@ -36,7 +36,7 @@ const socialMedia = [
         <div className="md:text-left text-center">
           <h1 className="md:text-5xl text-2xl md:leading-normal leading-10 font-bold text-gray-600 sm:text-3xl">
             <span className="text-gray-600 md:text-6xl text-5xl">
-              Hi🐱‍🏍
+              Hi
             </span>
             <br />
             My name is Kwon{" "}
