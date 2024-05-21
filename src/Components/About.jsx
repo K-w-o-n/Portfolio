@@ -1,5 +1,5 @@
 import React from 'react'
-import resume from "../../src/assets/images/Yell Khaing (Kwon) professional resume.pdf"
+import resume from "../../src/assets/images/Yell Khaing ( Kwon ) resume.pdf"
 import aboutImg from "../../src/assets/images/pf2.jpg"
 import { motion } from 'framer-motion'
 import { fadeIn } from '../Components/variants'
