@@ -32,8 +32,8 @@ export default function About() {
                 . <span className="font-semibold">Kwon</span> is my favourite
                 nickname. At 2023 , I made decision to change my carrer. So, I
                 started Web-Development journey.Before this journey, I studied
-                Yankin Education College from 2013 to 2015. And I studied
-                English major at Pyay University from 2016 to 2019. Now, I've
+                Yankin Education College and 
+                English major at Pyay University . Now, I've
                 been learning to code for 1 year. I started with HTML, CSS,
                 Javascript learning from{" "}
                 <span className="font-bold text-indigo-600">Youtube</span>. By
