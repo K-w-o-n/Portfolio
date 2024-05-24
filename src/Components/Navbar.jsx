@@ -33,7 +33,7 @@ export default function Navbar() {
         <div
           className={`${
             sticky ? "md:bg-white/0 bg-white" : ""
-          }text-yellow-500 md:block hidden px-7 py-2 font-medium
+          }text-white-500 bg-indigo-900 md:block hidden px-7 py-2 font-medium
             `}
         >
           <ul className="flex items-center uppercase text-lg gap-1 mx-20 py-2">
