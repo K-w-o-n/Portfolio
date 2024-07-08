@@ -9,7 +9,7 @@ body {
 }
 
 .btn-primary {
-  @apply bg-indigo-900 font-semibold text-2xl text-white md:mx-0 mx-auto  py-2 px-4 flex items-center gap-2;
+  @apply bg-indigo-900 font-semibold text-sm text-white md:mx-0 mx-auto  py-2 px-4 flex items-center gap-2;
 }
 
 .aboutImg::after {
