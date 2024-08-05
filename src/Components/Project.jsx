@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import project1 from "../assets/images/pj1.png"
 import project2 from "../assets/images/pj2.png"
 import project3 from "../assets/images/pj3.png"
+import project4 from "../assets/images/pj4.png"
 import "swiper/css";
 import "swiper/css/pagination";
 import {  Pagination, Autoplay } from "swiper/modules";
@@ -30,6 +31,13 @@ export default function Project() {
         github_link: "https://github.com/K-w-o-n/practicepj",
         live_link: "https://laravel.com/",
       },
+      {
+        img: project4,
+        name: "Blog System",
+        github_link: "https://github.com/K-w-o-n/my_blog",
+        live_link: "https://laravel.com/",
+      }
+      
     ];
 
   return (
@@ -53,7 +61,7 @@ export default function Project() {
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 2,
+                slidesPerView: 3,
               },
             }}
             loop={true}
