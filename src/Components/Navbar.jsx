@@ -24,7 +24,7 @@ export default function Navbar() {
         sticky ? "md:bg-white/60 bg-white text-gray-900" : "text-white"
       }`}
     >
-      <div className="flex items-center justify-between md:mx-20 sm:mx-0">
+      <div className="flex items-center justify-between md:mx-20 sm:mx-0 py-5">
         <div className="sm:mx-4">
           <h4 className="text-4xl text-gray-600 uppercase font-bold sm:float-start sm:text-3xl">
             Kwon
@@ -33,10 +33,10 @@ export default function Navbar() {
         <div
           className={`${
             sticky ? "md:bg-white/0 bg-white" : ""
-          }text-white-500 bg-indigo-900 md:block hidden px-7 py-2 font-medium
+          } md:block hidden px-7 py-2 font-medium
             `}
         >
-          <ul className="flex items-center uppercase text-lg gap-1 mx-20 py-2">
+          <ul className="flex items-center uppercase text-lg gap-1 mx-20 py-2 text-gray-600">
             {menuLinks.map((menu, i) => (
               <li key={i} className="px-6 hover:text-cyan-700">
                 <a href={menu.link}>{menu.name}</a>

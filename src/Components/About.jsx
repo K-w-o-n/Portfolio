@@ -30,7 +30,7 @@ export default function About() {
                   Yell Khaing
                 </span>
                 . <span className="font-semibold">Kwon</span> is my favourite
-                nickname. At 2023 , I made decision to change my carrer. So, I
+                nickname. At 2023 , I made decision to change my career. So, I
                 started Web-Development journey.Before this journey, I studied
                 Yankin Education College and 
                 English major at Pyay University . Now, I've
