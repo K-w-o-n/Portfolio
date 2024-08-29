@@ -4,6 +4,7 @@ import project1 from "../assets/images/pj1.png"
 import project2 from "../assets/images/pj2.png"
 import project3 from "../assets/images/pj3.png"
 import project4 from "../assets/images/pj4.png"
+import project5 from "../assets/images/pj5.png"
 import "swiper/css";
 import "swiper/css/pagination";
 import {  Pagination, Autoplay } from "swiper/modules";
@@ -36,7 +37,14 @@ export default function Project() {
         name: "Blog System",
         github_link: "https://github.com/K-w-o-n/my_blog",
         live_link: "https://laravel.com/",
+      },
+      {
+        img: project5,
+        name: "Ecommerce",
+        github_link: "https://github.com/K-w-o-n/ecommerce-php",
+        live_link: "",
       }
+      
       
     ];
 
@@ -61,7 +69,7 @@ export default function Project() {
             spaceBetween={20}
             breakpoints={{
               768: {
-                slidesPerView: 3,
+                slidesPerView: 2,
               },
             }}
             loop={true}
