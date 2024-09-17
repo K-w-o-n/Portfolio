@@ -26,7 +26,7 @@ export default function About() {
             <div className="text-gray-300 my-3">
               <p className="text-justify leading-7 w-11/12 mx-auto text-2xl text-gray-600">
               
-               <span className='text-4xl text-indigo-700 font-semibold'> Web Developer</span> with over 1 year of experience in building responsive websites and web applications like ecommerces, blogs and games.Can handle and use technologies and modern frameworks like React Js, Laravel, Vue, Tailwind Css.  Passionate Developer with strong problem solving skills to create more innovative things good in high-quality users experience. Collaborate with cross-functional teams and eager with new technologies.
+               <span className='text-4xl text-indigo-700 font-semibold'> Web Developer</span> with over 1 year of experience in building responsive websites and web applications. Can handle and use technologies and modern frameworks like React Js, Laravel, Vue, Tailwind Css.  A passionate Developer with strong problem-solving skills create more innovative things good in user's experience. Collaborate with cross-functional teams and to be eager for new technologies. I am currently seeking an internship opportunity to apply knowledge and gain practical experience.
               </p>
             </div>
             <br />
